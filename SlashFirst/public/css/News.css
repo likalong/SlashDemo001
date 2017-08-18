@@ -1,0 +1,224 @@
+@charset "utf-8";
+/* CSS Document */
+
+.news-and-event-background{
+    width: 300px;
+	height:100px;
+	padding:10px;
+	background-color:rgba(0,0,0,0.54);
+	position:absolute;
+	top:50%;
+	left:40%;
+	text-align:center;
+	font-size:24px;
+}
+.news-and-event-background p{
+	margin-top:20px;
+	margin-right:10px;
+	color:#DFD10F;
+	text-indent:20px;
+}
+.contain-news{
+	height:150px;
+	width:100%;
+	padding-top:20px;
+	text-align:center;
+	/*background-color:rgba(188,184,184,0.15);*/
+}
+.news-title{/* div contain only text of news title */
+	width:40%;
+	height:100px;
+	margin-top:20px;
+	margin-left:30%;
+}
+.news-title p{
+	font-size:36px;
+	color:#DFD10F;
+	padding-bottom:10px;
+	display:inline-table;
+	border-bottom:#DFD10F 1px solid;
+	
+}
+/*#contain-img img{*/
+	/*width:100%;*/
+	/*position: relative;*/
+	/*top:0;*/
+	/*left:0;*/
+/*}*/
+.img-item{
+	width:100%;
+	position: relative;
+}
+.img-item img{
+	position:relative;
+	width:100%;
+}
+.box-shadow-on-img{
+	/*background-image: url("../Picture/web-comp/air-logistic.jpg");*/
+	box-shadow: 0 0 8px rgba(0,0,0,.3);
+}
+.overlay-img-box{
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(65,162,145,.4);
+	opacity: 0;
+	transition: opacity .3s ease;
+	z-index: 100;
+}
+.img-item:hover .overlay-img-box  {
+	opacity: 1;
+}
+.pcolor{
+	color:gray;
+}
+.pcolor:hover{
+	color:black;
+}
+.make-small-pic-one{
+	height: 190px;
+}
+.make-small-pic-two{
+	height: 130px;
+}
+.post-time{
+	color: #B3B3B3;
+	font-size: 14px;
+}
+@media  screen and (max-width: 980px){
+	.make-small-pic-one{
+		height: 115px;
+	}
+	.make-small-pic-two{
+		height: 80px;
+	}
+}
+@media  screen and (max-width: 700px){
+	.make-small-pic-one{
+		height: 90px;
+	}
+	.make-small-pic-two{
+		height: 60px;
+	}
+}
+@media  screen and (max-width: 1196px){
+	.news-and-event-background{
+		width:50%;
+		padding: 0;
+		top:50%;
+		left:25%;
+	}
+
+}
+@media screen and (max-width: 518px) and (min-width: 360px){
+	.contain-news .news-title p{
+		font-size:24px;
+	}
+	.make-small-pic-one{
+		height: 60px;
+	}
+	.make-small-pic-two{
+		height: 60px;
+	}
+}
+@media screen and (max-width: 351px){
+	.news-and-event-background{
+		font-size: 20px;
+		height: 80px;
+	}
+	.contain-news .news-title p{
+		font-size:18px;
+	}
+}
+
+/* end style for News start style in contact us*/
+
+.head-space{
+	height: 450px;
+	width:100%;
+}
+.head-space iframe{
+    width: 100%;
+    height: 450px;
+}
+.background-gray{
+	background-color: rgba(188, 184, 184, 0.15);
+}
+.make-center{
+	text-align: center;
+}
+h3.styleh3{
+	color: #ffcc00;
+	font-size:36px;
+	text-align: center;
+}
+h3.styleh3:after{
+
+	content: "";
+	display: block;
+	height: 1px;
+	background-color: #ffcc00;
+	width: 130px;
+	position: relative;
+	margin: auto;
+}
+p.makecolor-email{
+	color:#3294FC;
+}
+h4.makesizeh4{
+	font-size: 24px;
+	font-weight: bold;
+}
+.makemargin{
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+.inputsetting{
+    width:200px;
+    color: gray;
+}
+
+.makemargin .form-control{
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid #ccc;
+    padding-left: 0;
+    min-height: 50px;
+    box-shadow: none!important;
+}
+.make-center .btn-bigger {
+    min-width: 180px;
+    padding: 10px 20px;
+}
+.makeshadow-btn-send{
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.3);
+}
+.make-center .btn-primary {
+    transition: background-color 0.4s ease;
+    background-color: #f9c803;
+    border-color: #f9c803;
+    color: #505050;
+    letter-spacing: 1px;
+    border-radius: 0px;
+    font-size: 18px;
+}
+.make-center button:hover{
+    background-color:#fddb55;
+    border-color: #fddb55;
+}
+/*end style for contact us page and start Quote Request page style*/
+.quote-form-margin-top{
+	margin-top:50px ;
+}
+.margin-right-to-weight{
+	margin-right: 10px;
+}
+.form-control{
+	border-radius: 0;
+}
+.font-weigth-label{
+	font-weight: 400;
+	color: gray;
+}
