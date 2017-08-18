@@ -23,7 +23,7 @@
         <div class="col-lg-4 col-sm-4 col-xs-6  ">
             <div class="img-item">
                 <a href="#" >
-                    <img src="{{asset('Picture\web-comp\air-logistic.jpg')}}" class="box-shadow-on-img">
+                    <img src="{{asset('Picture\web-comp\air-logistic.jpg')}}" class="box-shadow-on-img news-img">
                     <div class="overlay-img-box"></div>
                 </a>
 
@@ -42,7 +42,7 @@
         <div class="col-lg-4 col-sm-4 col-xs-6  ">
             <div class="img-item">
                 <a href="#" >
-                    <img src="{{asset('Picture\web-comp\sea-port.jpg')}}" class="box-shadow-on-img">
+                    <img src="{{asset('Picture\web-comp\sea-port.jpg')}}" class="box-shadow-on-img news-img">
                     <div class="overlay-img-box"></div>
                 </a>
 
@@ -62,7 +62,7 @@
         <div class="col-lg-4 col-sm-4 col-xs-6  ">
             <div class="img-item">
                 <a href="#" >
-                    <img src="{{asset('Picture\web-comp\y-quotation.JPG')}}" class="box-shadow-on-img make-small-pic-one" >
+                    <img src="{{asset('Picture\web-comp\y-quotation.JPG')}}" class="box-shadow-on-img news-img" >
                     <div class="overlay-img-box"></div>
                 </a>
 
@@ -81,7 +81,7 @@
         <div class="col-lg-4 col-sm-4 col-xs-6  ">
             <div class="img-item">
                 <a href="#" >
-                    <img src="{{asset('Picture\web-comp\port-logistic-2.jpg')}}" class="box-shadow-on-img">
+                    <img src="{{asset('Picture\web-comp\port-logistic-2.jpg')}}" class="box-shadow-on-img news-img">
                     <div class="overlay-img-box"></div>
                 </a>
 
@@ -100,7 +100,7 @@
         <div class="col-lg-4 col-sm-4 col-xs-6  ">
             <div class="img-item">
                 <a href="#" >
-                    <img src="{{asset('Picture\web-comp\warehouse.jpg')}}" class="box-shadow-on-img">
+                    <img src="{{asset('Picture\web-comp\warehouse.jpg')}}" class="box-shadow-on-img news-img">
                     <div class="overlay-img-box"></div>
                 </a>
 
@@ -119,7 +119,7 @@
         <div class="col-lg-4 col-sm-4 col-xs-6  ">
             <div class="img-item">
                 <a href="#" >
-                    <img src="{{asset('Picture\web-comp\export_brokerage.jpg')}}" class="box-shadow-on-img make-small-pic-two">
+                    <img src="{{asset('Picture\web-comp\y-about-4.JPG')}}" class="box-shadow-on-img news-img">
                     <div class="overlay-img-box"></div>
                 </a>
 

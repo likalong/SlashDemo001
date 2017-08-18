@@ -51,7 +51,10 @@
 }
 .img-item img{
 	position:relative;
-	width:100%;
+	width: 100%;
+}
+.news-img{
+	height: 150px;
 }
 .box-shadow-on-img{
 	/*background-image: url("../Picture/web-comp/air-logistic.jpg");*/
@@ -77,33 +80,33 @@
 .pcolor:hover{
 	color:black;
 }
-.make-small-pic-one{
-	height: 190px;
-}
-.make-small-pic-two{
-	height: 130px;
-}
+/*.make-small-pic-one{*/
+	/*height: 190px;*/
+/*}*/
+/*.make-small-pic-two{*/
+	/*height: 130px;*/
+/*}*/
 .post-time{
 	color: #B3B3B3;
 	font-size: 14px;
 }
-@media  screen and (max-width: 980px){
-	.make-small-pic-one{
-		height: 115px;
-	}
-	.make-small-pic-two{
-		height: 80px;
-	}
-}
-@media  screen and (max-width: 700px){
-	.make-small-pic-one{
-		height: 90px;
-	}
-	.make-small-pic-two{
-		height: 60px;
-	}
-}
-@media  screen and (max-width: 1196px){
+/*@media  screen and (max-width: 983px) and (min-width:766px){*/
+	/*.make-small-pic-one{*/
+		/*height: 115px;*/
+	/*}*/
+	/*.make-small-pic-two{*/
+		/*height: 78px;*/
+	/*}*/
+/*}*/
+/*@media  screen and (max-width: 765px) and (min-width:420px){*/
+	/*.make-small-pic-one{*/
+		/*height: 120px;*/
+	/*}*/
+	/*.make-small-pic-two{*/
+		/*height: 120px;*/
+	/*}*/
+/*}*/
+@media  screen and (max-width: 1196px) {
 	.news-and-event-background{
 		width:50%;
 		padding: 0;
@@ -112,15 +115,9 @@
 	}
 
 }
-@media screen and (max-width: 518px) and (min-width: 360px){
-	.contain-news .news-title p{
-		font-size:24px;
-	}
-	.make-small-pic-one{
-		height: 60px;
-	}
-	.make-small-pic-two{
-		height: 60px;
+@media screen and (max-width: 518px) and (min-width: 360px) {
+	.contain-news .news-title p {
+		font-size: 24px;
 	}
 }
 @media screen and (max-width: 351px){
