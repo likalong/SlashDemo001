@@ -30,7 +30,7 @@
 
         <div class="row makemargin">
             <div class="col-lg-4 col-md-4  col-sm-4 col-xs-12 make-center">
-                <div class="glyphicon glyphicon-earphone" style=" color: #ffcc00; font-size: 50px"></div>
+                <i class="glyphicon glyphicon-earphone"  style=" color: #ffcc00; font-size: 50px"></i>
                 <h4 class="makesizeh4">Any Question?</h4>
                 <p>+855 61 333 117<br/>+855 61 333 500</p>
             </div>

@@ -7,13 +7,13 @@
 <title>@yield('title')|Yellow Sea Logistics </title>
 <link rel="icon" type="image/png" href="{{asset('Picture/SocialLogo/Y.png')}}">
 <link rel="stylesheet" href="{{asset('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css')}}">
-    {{--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">--}}
-    <link rel="stylesheet" href="{{ asset('bootstrap-3.3.7-dist/css/bootstrap.min.css')  }}">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="{{asset('https://fonts.googleapis.com/css?family=Roboto+Condensed')}}">
-<link rel="stylesheet" type="text/css" href="{{asset('/css/002style.css')}}"/>
-<link rel="stylesheet" type="text/css" href="{{asset('/css/News.css')}}"/>
+    <link rel="stylesheet" href="{{ asset('bootstrap-3.3.7-dist/css/bootstrap.min.css')  }}">
+    <script src="{{asset('bootstrap-3.3.7-dist/js/bootstrap.min.js')}}"></script>
+    <script type="text/javascript" src="{{asset('js/jquery-3.2.1.js')}}"></script>
+
+<link rel="stylesheet" type="text/css" href="{{asset('css/css/homeStyle.css')}}"/>
+<link rel="stylesheet" type="text/css" href="{{asset('/css/css/newStyle.css')}}"/>
 </head>
 
 
@@ -49,37 +49,7 @@
 
 
 </nav>
-<script>
-
-    $(document).ready(function() {
-        $("#aboutus,#product").on('focus', function (event) {
-            if (this.hash !== "") {
-                event.preventDefault();
-                var hash = this.hash;
-                $('html, body, #about-section,#product-section').animate({
-                    scrollTop: $(hash).offset().top
-                }, 1000, function () {
-                    window.location.hash = hash;
-                });
-            }
-        });
-    });
-
-</script>
-<script>
-
-$(document).ready(function(){
-    $("#menu li a").click(function(){
-        console.log($('#menu li a'));
-        $("a").each(function(){
-            $('a').removeClass('focus');
-        });
-        $(this).addClass('focus');
-
-    });
-});
-
-</script>
+<script type="text/javascript" src="{{asset('js/under_line.js')}}"></script>
 
 @yield('bodypage')
 

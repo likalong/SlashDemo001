@@ -1,0 +1,1 @@
+{"version":3,"sources":["homeStyle.scss"],"names":[],"mappings":"AACA;EACE,0BAA0B;CAC3B","file":"homeStyle.css","sourcesContent":["@charset \"utf-8\";\r\n.backgroun-color{\r\n  background-color: #1f648b;\r\n}"],"sourceRoot":"/source/"}
